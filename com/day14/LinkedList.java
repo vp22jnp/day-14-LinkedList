@@ -35,6 +35,15 @@ public class LinkedList<T> {
             }
             System.out.println(node.data);
         }
+        //uc2
+    public void addAtStart(T value) {
+        Node<T> newNode = new Node<>();
+        newNode.data = value;
+        newNode.next = head;
+        head = newNode;
     }
+
+}
+
 
 

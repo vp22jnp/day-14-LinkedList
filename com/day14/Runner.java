@@ -9,7 +9,12 @@ public class Runner {
         numberList.add(30);
         numberList.add(70);
        // numberList.show();
-        System.out.println("after adding"+numberList);
+        LinkedList<Integer> numberList1 = new LinkedList<>();
+        numberList1.add(70);
+        numberList1.add(30);
+        numberList1.add(56);
+        //numberList1.show();
+        System.out.println("after adding"+numberList1);
     }
 }
 
